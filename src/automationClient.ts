@@ -12,7 +12,7 @@ import { WebSocketClient, WebSocketClientOptions } from "./internal/transport/we
 import { WebSocketTransportEventHandler } from "./internal/transport/websocket/WebSocketTransportEventHandler";
 import { logger } from "./internal/util/logger";
 import { AutomationServer } from "./server/AutomationServer";
-import { BuildableAutomationServer } from "./server/BuildableAutomationServer";
+import { BuildableAutomationServer } from "./server/BuildableAutomationServer"
 
 export const DefaultStagingAtomistServer =
     "https://automation-staging.atomist.services/registration";
