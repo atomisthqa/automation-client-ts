@@ -32,10 +32,10 @@ export class AutomationClient {
             {
                 name: configuration.name,
                 version: configuration.version,
-                teamId: configuration.teamId,
+                teamId: configuration.teamId
                 keywords: [],
-                token: process.env.GITHUB_TOKEN,
-                graphqlEndpoint: DefaultStagingAtomistGraphQLServer,
+                token: process.env.GITHUB_TOKEN
+                graphqlEndpoint: DefaultStagingAtomistGraphQLServer
             });
     }
 
