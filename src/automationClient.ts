@@ -35,7 +35,7 @@ export class AutomationClient {
                 teamId: configuration.teamId,
                 keywords: [],
                 token: process.env.GITHUB_TOKEN,
-                graphqlEndpoint: DefaultStagingAtomistGraphQLServer,
+                graphqlEndpoint: DefaultStagingAtomistGraphQLServer
             });
     }
 
@@ -43,10 +43,7 @@ export class AutomationClient {
         return this.automations;
     }
 
-    public withCommandHandler(command: () => HandleCommand): AutomationClient {
-        this.automations.fromCommandHandlerInstance(command);
-        return this;
-    }
+    public withCommandHandler(command: () => HandleCommand): AutomationClient { this.automations.fromCommandHandlerInstance(command); return this;  }
 
     public withEventHandler(event: () => HandleEvent<any>): AutomationClient {
         this.automations.fromEventHandlerInstance(event);
