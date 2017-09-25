@@ -43,7 +43,10 @@ export class AutomationClient {
         return this.automations;
     }
 
-    public withCommandHandler(command: () => HandleCommand): AutomationClient { this.automations.fromCommandHandlerInstance(command); return this;  }
+    public withCommandHandler(command: () => HandleCommand): AutomationClient { 
+        this.automations.fromCommandHandlerInstance(command);
+        return this;  
+    }
 
     public withEventHandler(event: () => HandleEvent<any>): AutomationClient {
         this.automations.fromEventHandlerInstance(event);
