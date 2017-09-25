@@ -15,7 +15,7 @@ using the standalone server.
 ### Node.js
 
 Please install Node.js from https://nodejs.org/en/download/ .
-
+ 
 To verify that the right versions are installed, please run:
 
 ```
