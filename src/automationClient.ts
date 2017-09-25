@@ -30,12 +30,12 @@ export class AutomationClient {
     constructor(private configuration: Configuration) {
         this.automations = new BuildableAutomationServer(
             {
-                name: configuration.name
-                version: configuration.version
-                teamId: configuration.teamId
+                name: configuration.name,
+                version: configuration.version,
+                teamId: configuration.teamId,
                 keywords: [],
-                token: process.env.GITHUB_TOKEN
-                graphqlEndpoint: DefaultStagingAtomistGraphQLServer,
+                token: process.env.GITHUB_TOKEN,
+                graphqlEndpoint: DefaultStagingAtomistGraphQLServer
             });
     }
 
