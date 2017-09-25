@@ -9,7 +9,7 @@ using the standalone server.
 [automation-client]: https://www.npmjs.com/package/@atomist/automation-client
 
 # Getting Started
-
+ 
 ## Prerequisites
 
 ### Node.js
