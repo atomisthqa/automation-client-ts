@@ -11,11 +11,11 @@ export interface HandlerContext extends Contextual {
     /**
      * Client to use for GraphQL queries
      */
-    graphClient?: GraphClient;
+    graphClient?: GraphClient
 
     /**
      * Client to send messages
      */
-    messageClient: MessageClient;
+    messageClient: MessageClient
 
 }
