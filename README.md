@@ -17,7 +17,7 @@ using the standalone server.
 Please install Node.js from https://nodejs.org/en/download/ .
  
 To verify that the right versions are installed, please run:
-
+ 
 ```
 $ node -v
 v8.4.0
