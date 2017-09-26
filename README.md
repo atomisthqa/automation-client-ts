@@ -6,7 +6,7 @@
 using the standalone server.
  
 [node]: https://nodejs.org/en/ 
-[automation-client]: https://www.npmjs.com/package/@atomist/automation-client
+[automation-client]: https://www.npmjs.com/package/@atomist/automation-client 
 
 # Getting Started
  
