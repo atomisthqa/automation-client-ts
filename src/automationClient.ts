@@ -35,7 +35,7 @@ export class AutomationClient {
                 teamId: configuration.teamId,
                 keywords: [],
                 token: process.env.GITHUB_TOKEN,
-                graphqlEndpoint: DefaultStagingAtomistGraphQLServer
+                graphqlEndpoint: DefaultStagingAtomistGraphQLServer,
             });
     }
 
@@ -64,7 +64,7 @@ export class AutomationClient {
         const options: WebSocketClientOptions = {
             graphUrl: DefaultStagingAtomistGraphQLServer,
             registrationUrl: DefaultStagingAtomistServer,
-            token: this.configuration.token
+            token: this.configuration.token,
         };
         return Promise.all([
             Promise.resolve(this.runWs(handler, options)),
