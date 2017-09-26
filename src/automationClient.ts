@@ -35,7 +35,7 @@ export class AutomationClient {
                 teamId: configuration.teamId,
                 keywords: [],
                 token: process.env.GITHUB_TOKEN,
-                graphqlEndpoint: DefaultStagingAtomistGraphQLServer
+                graphqlEndpoint: DefaultStagingAtomistGraphQLServer,
             });
     }
 
