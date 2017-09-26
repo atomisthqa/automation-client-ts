@@ -10,7 +10,7 @@ using the standalone server.
 
 # Getting Started
  
-## Prerequisites
+## Prerequisites 
 
 ### Node.js
 
