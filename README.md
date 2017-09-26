@@ -12,7 +12,7 @@ using the standalone server.
  
 ## Prerequisites 
 
-### Node.js
+### Node.js 
 
 Please install Node.js from https://nodejs.org/en/download/ .
  
