@@ -5,7 +5,7 @@
 [Node][node] module [`@atomist/automation-client`][automation-client] for creating command and event handlers
 using the standalone server.
  
-[node]: https://nodejs.org/en/
+[node]: https://nodejs.org/en/ 
 [automation-client]: https://www.npmjs.com/package/@atomist/automation-client
 
 # Getting Started
