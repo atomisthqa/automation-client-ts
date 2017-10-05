@@ -73,10 +73,7 @@ export class AutomationClient {
     }
 
     private setupEventHandler(): WebSocketTransportEventHandler {
-        const webSocketOptions: WebSocketClientOptions = {
-            graphUrl: DefaultStagingAtomistGraphQLServer,
-            registrationUrl: DefaultStagingAtomistServer,
-            token: this.configuration.token,
+        const webSocketOptions: WebSocketClientOptions = { graphUrl: DefaultStagingAtomistGraphQLServer,  registrationUrl: DefaultStagingAtomistServer,            token: this.configuration.token,
         };
         if (this.configuration.listeners) {
             return new DefaultWebSocketTransportEventHandler(this.automations, webSocketOptions,
