@@ -1,7 +1,7 @@
 import * as os from "os";
 import { Configuration } from "./configuration";
-import { HandleEvent } from "./HandleEvent";
 import { HandleCommand } from "./HandleCommand";
+import { HandleEvent } from "./HandleEvent";
 import { ExpressServer, ExpressServerOptions } from "./internal/transport/express/ExpressServer";
 import { MetricEnabledAutomationEventListener } from "./internal/transport/MetricEnabledAutomationEventListener";
 import { TransportEventHandler } from "./internal/transport/TransportEventHandler";
@@ -35,7 +35,7 @@ export class AutomationClient {
                 teamId: configuration.teamId,
                 keywords: [],
                 token: process.env.GITHUB_TOKEN,
-                graphqlEndpoint: DefaultStagingAtomistGraphQLServer
+                graphqlEndpoint: DefaultStagingAtomistGraphQLServer,
             });
     }
 
