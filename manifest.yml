@@ -1,0 +1,8 @@
+---
+applications:
+- name: "@atomist/automation-client"
+  memory: 512M
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  env:
+    ATOMIST_TEAMS: T1L0VDKJP
